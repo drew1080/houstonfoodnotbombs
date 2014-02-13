@@ -1,0 +1,25 @@
+/*
+Theme Name: Food Not Bombs Theme
+Description: NOTE: This is a CHILD THEME using the default WordPress Twenty-Twelve as the parent.  WARNING: If you switch themes, you may lose functionality.  This theme features a custom background and header.
+Author: Andrew Cobb
+Author URI: http://aihoustoncobb.com/fnb
+Template: twentytwelve
+Version: 1.0
+*/
+@import url("../twentytwelve/style.css");
+
+.header-image {
+  width: 100%;
+}
+
+.home .entry-header {
+  display: none;
+}
+
+h1.site-title {
+	font-size: 28px !important;
+}
+
+h2.site-description {
+	font-size: 20px !important;
+}
